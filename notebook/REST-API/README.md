@@ -7,8 +7,8 @@ Pada setiap end point client hanya perlu memasukkan sejumlah bilangan bulat pada
 ### `http://IP:5432/top/(int)/items`
 Mengembalikan sejumlah `(int)` item yang direkomendasikan untuk setiap user yang ada pada dataset.  
 ![](img/1.jpg)
-Hasil lebih lengkap dapat dilihat pada file [response1.html](/response1.html)  
+Hasil lebih lengkap dapat dilihat pada file [response1.html](response/response1.html)  
 ### `http://IP:5432/top/(int)/user`
 Mengembalikan sejumlah `(int)` user yang direkomendasikan untuk setiap item yang ada pada dataset.  
-![](/img/2.jpg)
-Hasil lebih lengkap dapat dilihat pada file [response2.html](/response2.html)
+![](img/2.jpg)
+Hasil lebih lengkap dapat dilihat pada file [response2.html](response/response2.html)
