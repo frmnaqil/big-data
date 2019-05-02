@@ -38,8 +38,8 @@ class RecommendationEngine:
     def user_recommended_item(self, numUsers):
 
         itemRecs = self.model.recommendForAllItems(numUsers)
-        itemRecs = itemRecs.to_json()
         itemRecs = itemRecs.toPandas()
+        itemRecs = itemRecs.to_json()
         
         return itemRecs
 

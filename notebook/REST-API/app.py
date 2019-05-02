@@ -16,7 +16,7 @@ def top_ratings(count):
     top_recommendation = recommendation_engine.items_for_user(count)
     return json.dumps(top_recommendation)
 
-@main.route("/top/<int:count>/user", methods=["GET"])
+@main.route("/top/<int:count>/users", methods=["GET"])
 def movie_ratings(count):
     logger.debug("TOP %s user recommendation for each movie", count)
     top_user = recommendation_engine.user_recommended_item(count)
